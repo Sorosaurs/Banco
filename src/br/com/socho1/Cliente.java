@@ -5,6 +5,8 @@ public class Cliente {
     private String nome;
     private int conta;
 
+
+
     public Cliente(int id, String nome, int conta) {
         this.id = id;
         if (id <= 0) {
@@ -18,5 +20,9 @@ public class Cliente {
         if (conta <= 0) {
             throw new IllegalArgumentException("O Conta inserido é invalido");
         }
+    }
+
+    public String getNome() {
+        return nome;
     }
 }
