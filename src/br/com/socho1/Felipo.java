@@ -5,8 +5,6 @@ public class Felipo {
         int max= 1000;
         int x= 0, y= 1;
 
-        System.out.println("Felipino " + max + ":");
-
         while (x <= max) {
             System.out.print(x + " ");
             int Adicao = x + y;
